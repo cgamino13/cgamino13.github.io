@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-24T20:33:39-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Carlos Gamino</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Day Three</title><link href="http://localhost:4000/2020/09/17/Day-Three/" rel="alternate" type="text/html" title="Day Three" /><published>2020-09-17T00:00:00-05:00</published><updated>2020-09-17T00:00:00-05:00</updated><id>http://localhost:4000/2020/09/17/Day-Three</id><content type="html" xml:base="http://localhost:4000/2020/09/17/Day-Three/">&lt;p&gt;105 more days left.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-24T20:39:29-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Carlos Gamino</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Day Four</title><link href="http://localhost:4000/2020/09/24/Day-Four/" rel="alternate" type="text/html" title="Day Four" /><published>2020-09-24T00:00:00-05:00</published><updated>2020-09-24T00:00:00-05:00</updated><id>http://localhost:4000/2020/09/24/Day-Four</id><content type="html" xml:base="http://localhost:4000/2020/09/24/Day-Four/">&lt;p&gt;104 more days left.&lt;/p&gt;
+
+&lt;p&gt;Well it has been a few days but I finally am able to push out version 1.0 of my site. It was a lot more work than I anticapated orginally.&lt;/p&gt;
+
+&lt;p&gt;I did not think that using jekyll would have so many different options to do things, I was stuck in CSS HTML hell for hours trying to get things just right.&lt;/p&gt;
+
+&lt;p&gt;Now time to let it sit and soak for a while. Def will not be able to look after it, I am going to start a deep dive into Comp Sci fundamentals now,
+so join me in solving some leetcode problems.&lt;/p&gt;
+
+&lt;p&gt;Although I do have more ideas in mine and some refactors I need to do. I want to add images to these blogs, I also want to make changing from like to dark mode
+persistent, but that is for another day.&lt;/p&gt;
+
+&lt;p&gt;Your friend,
+Los&lt;/p&gt;</content><author><name></name></author><summary type="html">104 more days left.</summary></entry><entry><title type="html">Day Three</title><link href="http://localhost:4000/2020/09/17/Day-Three/" rel="alternate" type="text/html" title="Day Three" /><published>2020-09-17T00:00:00-05:00</published><updated>2020-09-17T00:00:00-05:00</updated><id>http://localhost:4000/2020/09/17/Day-Three</id><content type="html" xml:base="http://localhost:4000/2020/09/17/Day-Three/">&lt;p&gt;105 more days left.&lt;/p&gt;
 
 &lt;p&gt;Spent a good amount of time wireframing today. I wanted to get my thoughts on paper for how I want the site to 
 ultimately feel like. Right now in my head I currently have about 9 pages. I need to make includes which are kinda like
