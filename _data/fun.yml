@@ -1,0 +1,15 @@
+- name: Sports
+  description: /
+  image: /assets/sports.jpg
+
+- name: Games
+  description: /about/
+  image: /assets/lozbreathofthewildrelease.jpg
+
+- name: Music
+  description: /about/
+  image: /assets/musicbrain.jpg
+
+- name: Outdoors
+  description: /experience/
+  image: /assets/hawaii.jpg

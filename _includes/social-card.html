@@ -1,0 +1,11 @@
+<div style="padding-top: 10px; padding-bottom: 10px;">
+  <h3>You can also find me on these platforms:</h3>
+  {% for account in site.data.social_media %}
+  <div class="row" style="padding-top:10px;padding-bottom:10px;padding-right:50px;padding-left:10px">
+    <a class="btn btn-light btn-lg btn-block" href="{{ account.profile_url_prefix }}">
+      <p class="{{ account.class }}"></p>
+      {{ account.name }}
+    </a>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,17 @@
+
+<div class="mt-5 ml-5 mr-5 mb-5">
+  <div class="row">
+    <div class="col-10">
+      <div class="card bg-light border-light">
+        <div class="card-body">
+          <h5 class="card-title">{{ include.cardData.name }}</h5>
+          <p class="card-text">{{ include.cardData.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2">
+      <img src="{{ include.cardData.image }}" class="img-fluid" alt="Responsive image">
+    </div>
+  </div>
+</div>

@@ -1,51 +1,53 @@
 layout: sidebar
-style: dark
+style: light
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
-  - jemoji
+  - jekyll-feed
 
-permalink: /:year/:month/:day/:title/
+
+include:
+  - _pages
+
+markdown: kramdown
+theme: null
 
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
+      path: _posts
+      type: posts
     values:
-      layout: "post"
+      is_post: true
+      layout: post
+      permalink: /:year/:month/:day/:title/
+  -
+    scope:
+      path: _pages
+      type: pages
+    values:
+      is_post: false
+      layout: default
 
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
-    # - repo-name
 
 social_media:
-  email: "cgamino@ymail.com"
   facebook: carlos.gamino.560
-  # hackerrank: your_username
   instagram: moderncarlos
   linkedin: carlos-gamino
-  # stackoverflow: your_user_id
-  # twitter: your_username
-  # youtube: your_username
   github: cgamino13
 
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via Aleksandr Hovhannisyan, , and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via .
+profPic: "/assets/linkedIn-prof-pic.jpg"
+title: Carlos Gamino
+email: cgamino@ymail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com

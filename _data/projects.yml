@@ -1,0 +1,9 @@
+- name: This Website
+  description: >
+    I built this website using Jekyll/Liquid with Github pages.
+    Adding needed CSS, Javascript, HTML, and added libraries like Bootstrap.
+  image: /assets/jekyll.png
+
+- name: More Upcoming
+  description: Will post more as I add projects to my Github
+  image: /assets/github-mark.png

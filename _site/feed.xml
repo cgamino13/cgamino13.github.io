@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-24T20:33:39-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Carlos Gamino</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Day Three</title><link href="http://localhost:4000/2020/09/17/Day-Three/" rel="alternate" type="text/html" title="Day Three" /><published>2020-09-17T00:00:00-05:00</published><updated>2020-09-17T00:00:00-05:00</updated><id>http://localhost:4000/2020/09/17/Day-Three</id><content type="html" xml:base="http://localhost:4000/2020/09/17/Day-Three/">&lt;p&gt;105 more days left.&lt;/p&gt;
+
+&lt;p&gt;Spent a good amount of time wireframing today. I wanted to get my thoughts on paper for how I want the site to 
+ultimately feel like. Right now in my head I currently have about 9 pages. I need to make includes which are kinda like
+models or pieces of the site. Once I am complete with those pieces I can add all of the pages of the site together.&lt;/p&gt;
+
+&lt;p&gt;Once I have all the pages of the site together then I will have to fill those contents out with actual information.
+Then when I have my information in I will need to keep the styling uniform, actually I might do this before inserting
+my information, that might be a better idea.&lt;/p&gt;
+
+&lt;p&gt;Will not make any huge headway with this tomorrow or Saturday, going to be busy but I will still be posting my thoughts
+for the day.&lt;/p&gt;
+
+&lt;p&gt;Your friend,
+Los&lt;/p&gt;</content><author><name></name></author><summary type="html">105 more days left.</summary></entry><entry><title type="html">Day Two</title><link href="http://localhost:4000/2020/09/16/Day-Two/" rel="alternate" type="text/html" title="Day Two" /><published>2020-09-16T00:00:00-05:00</published><updated>2020-09-16T00:00:00-05:00</updated><id>http://localhost:4000/2020/09/16/Day-Two</id><content type="html" xml:base="http://localhost:4000/2020/09/16/Day-Two/">&lt;p&gt;106 more days left.&lt;/p&gt;
+
+&lt;p&gt;I was able to do a few things today, unfortunately I was struggling trying to have other pages of my site processed from 
+markdown to html, so it just looked ugly. I was finally able to get it figured out by removing an annoying variable
+for content being set in the header. Apparently, when you set the content to a variable Jekyll does not run that md
+file through the process to turn it into valid html. Weird huh?&lt;/p&gt;
+
+&lt;p&gt;I will not be pushing to master tonight, will try to push tomorrow.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Here are a few things that I completed today&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Created and set up Google Analytics&lt;/li&gt;
+  &lt;li&gt;Created and set up comments with Disqus&lt;/li&gt;
+  &lt;li&gt;Update gitignore&lt;/li&gt;
+  &lt;li&gt;Add functionality for people to directly download my resume&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;I realized that maybe one days worth of time after work may be pushing it to try to have all of the things I want to
+complete be down, so this next list will be what I want to complete by Sunday (9/20)&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Add some more about me info on the left hand side of my column with links to other pages&lt;/li&gt;
+  &lt;li&gt;Remove any unneeded includes or other topics that I want to replace&lt;/li&gt;
+  &lt;li&gt;Create a better theme that I can customize&lt;/li&gt;
+  &lt;li&gt;Create an about me page&lt;/li&gt;
+  &lt;li&gt;Contact page&lt;/li&gt;
+  &lt;li&gt;Work, Fun, Education&lt;/li&gt;
+  &lt;li&gt;Have a button to change from light to dark mode&lt;/li&gt;
+  &lt;li&gt;Modify index/home page to look cleaner&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Your friend,
+Los&lt;/p&gt;</content><author><name></name></author><summary type="html">106 more days left.</summary></entry><entry><title type="html">Day One</title><link href="http://localhost:4000/2020/09/15/Day-One/" rel="alternate" type="text/html" title="Day One" /><published>2020-09-15T00:00:00-05:00</published><updated>2020-09-15T00:00:00-05:00</updated><id>http://localhost:4000/2020/09/15/Day-One</id><content type="html" xml:base="http://localhost:4000/2020/09/15/Day-One/">&lt;p&gt;Today is the start of my journey to 2021. 107 more days left.&lt;/p&gt;
+
+&lt;p&gt;In those 107 days I plan to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Get this site up and running, looking all prettyfull&lt;/li&gt;
+  &lt;li&gt;Write a blog post a day&lt;/li&gt;
+  &lt;li&gt;Be a master of Data Structures and Algorithms&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Follow me as I ravenge my way through Jekyll and pages of documentation, DS/Algos, and LeetCode questions.&lt;/p&gt;
+
+&lt;p&gt;Signing off for the first time.&lt;/p&gt;
+
+&lt;p&gt;Your friend,
+Los&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JUST KIDDING…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So for now I have done a few things:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Updated my profile pic to one that is actually a picture of me&lt;/li&gt;
+  &lt;li&gt;Added a GitHub svg (I don’t even know what a svg is…actually I do now) which is the wrong color&lt;/li&gt;
+  &lt;li&gt;Wrote my first blog ;)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;There are a few things I want to have done by tomorrow night:&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Add functionality for people to directly download my resume&lt;/li&gt;
+  &lt;li&gt;Add some more about me info on the left hand side of my column&lt;/li&gt;
+  &lt;li&gt;Remove any unneeded html files, don’t really have much on github right now so I do not want to show that first&lt;/li&gt;
+  &lt;li&gt;Maybe use a different theme?&lt;/li&gt;
+  &lt;li&gt;Add a git ignore file to my project&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now that I have all my thoughts written out..for real this time…&lt;/p&gt;
+
+&lt;p&gt;Signing off for the first time.&lt;/p&gt;
+
+&lt;p&gt;Your friend,
+Los&lt;/p&gt;</content><author><name></name></author><summary type="html">Today is the start of my journey to 2021. 107 more days left.</summary></entry></feed>

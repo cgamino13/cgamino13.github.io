@@ -1,0 +1,47 @@
+- name: Aesir Media Group
+  description: >-
+    I currently work at Aesir Media Group, and its companion companies HIDIVE/Sentai Filmworks.
+    I am working full stack, which basically means I am a part of every part of the software lifecycle. 
+    Participating in planning meetings, creating technical documentation, to writing/testing the code,
+    and finally deploying and monitoring the software. In this role I have made many improvements, some
+    of the more substantial improvements have been increasing the speed of the site by creating an in house
+    logging system using AWS Lambda, improving user bounce rate to our site by implementing a new email verification
+    system, and integrating a more secure system by moving our user base to AWS Cognito.
+  image: /assets/aesir-media-group-squarelogo.png
+  location: 'Houston, TX'
+  subHeader: 'Junior Software Development Engineer, March 2019 - Current'
+
+- name: Baylor University
+  description: >-
+    Attending Baylor has made a huge impact on me as an individual. I was able to learn from some of the
+    brightest professors and peers which pushed me to expand, and challenge myself as an individual.
+    As a student in the Computer Science programming I was able to learn many different facets of the Computer Science and
+    Software Engineering world. I took classes on Data Mining, Computer Architecture, and Operating Systems that grew my knowledge and
+    allowed me to learn new programming languages like C, C++, Java, and SQL. I also took courses more primarily focused on Software like
+    Software Project Management where I learned about the different software lifecycles and the pros/cons between them, which is what sparked
+    my inspiration to become a Software Project Manager in the future.
+    I also learned a great deal from leading and participating in volunteer opportunities and in being a captain for my club's sports teams.
+    All in all Baylor gave me memories, experiences, and influences that have grown my love for learning, and given me a passion for my work.
+  image: /assets/bu.jpg
+  location: 'Waco, TX'
+  subHeader: 'Bachelor of Science in Computer Science, earned Dec 2018'
+
+- name: Baylor ITS
+  description: >-
+    Working for Baylor Information Technology Service gave me an opportunity to learn more in depth
+    how the Data Link and Network Layer in the TCP/IP model works. I learned switch and routing configuration
+    while becoming more comfortable with the command terminal. I was able to increace efficiency in our network by installing
+    new access-points over the campus and trained new employees on best practices.
+  image: /assets/baylor-university.jpg
+  location: 'Waco, TX'
+  subHeader: 'Networking Support Specialist, May 2018 - Dec 2018'
+
+
+- name: Endofa Energy
+  description: >-
+    At Endofa Energy I learned how to work with a team to achieve goals in a business setting.
+    I learned how to organize my time, and properly delegate different tasks to my team. I was able to grow my analytical 
+    senses by analyzing invoices in an efficient manner.
+  image: /assets/endofa-energy.png
+  location: 'Houston, TX'
+  subHeader: 'Summer Accounting/Auditing Intern May 2015 - August 2015'

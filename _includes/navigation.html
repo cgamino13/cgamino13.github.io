@@ -1,0 +1,24 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">
+    <img src="{{ site.profPic }}" width="30" height="30" class="d-inline-block align-top" style="border-radius: 15px;" alt="">
+    {{ site.title }}
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnav" aria-controls="navbarnav" aria-expanded="false" aria-label="toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarnav">
+    <ul class="navbar-nav">
+      {% for item in site.data.navigation %}
+      <li {% if page.url == item.link %}class="nav-item active ml-auto" {% else %} class="nav-item ml-auto" {% endif %}>
+        <a class="nav-link" href="{{ item.link }}">
+          {{ item.name }}
+          {% if page.url == item.link %} <span class="sr-only">(current)</span> {% endif %}
+        </a>
+      </li>
+      {% endfor %}
+      <li class="nav-item ml-auto">
+        <button class="nav-link theme-toggle" style="padding:8px!important;">Light/Dark</button>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,12 @@
+{% include header.md %}
+
+<div class="container-lg py-6 p-responsive text-center">
+  {% unless posts_total == 0 %}
+  <div class="my-6">
+    {% include thoughts.html %}
+  </div>
+  {% endunless %}
+</div>
+
+
+{% include full-footer.html %}

@@ -1,5 +1,5 @@
 {% include header.md %}
 
-{{ content }}
+{% include full-page-image.md %}
 
 {% include full-footer.html %}

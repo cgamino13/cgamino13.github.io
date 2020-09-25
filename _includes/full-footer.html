@@ -1,0 +1,24 @@
+</main>
+<footer class="footer">
+  <div class="row text-center">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      {% for account in site.data.social_media %}
+      <a href="{{ account.profile_url_prefix }}" class="{{ account.class }}"></a>
+      {% endfor %}
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <p  style="color:#bbb!important;">Copyright Carlos Gamino, 2020</p>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</footer>
+</div>
+
+{% include scripts.html %}
+  </body>
+</html>
